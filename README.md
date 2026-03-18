@@ -29,7 +29,7 @@ To ensure the results reported in the paper are rigorously reproducible, the fut
   * Hyperparameters for the CARE routing mechanism (e.g., EMA momentum $\gamma$, Phase Thresholds $\mathcal{T}$, Anchor $a$).
   * Dynamic Modulation parameters: Base coefficients $\mathcal{B}$ and weighting factors $\alpha$, $\beta$.
   * Length Calibration configurations: Stabilizer floor $L_{floor}$, Tolerance multiplier $\omega$.
-  * GRPO training configurations (e.g., Learning rate, Group size$G$).
+  * GRPO training configurations (e.g., Learning rate, Group size$\G$).
 * **Commands:** One-line shell scripts to reproduce the main reasoning performance results and the token efficiency ablation studies.
 
 ## Data
