@@ -27,9 +27,9 @@ To ensure the results reported in the paper are rigorously reproducible, the fut
 * **Determinism:** Specific random seeds, hardware configurations (e.g., **8 $\times$ NVIDIA L20 48GB** setups), and DeepSpeed ZeRO-3 config files used for the reported experiments will be fully documented to prove resource-efficiency.
 * **Configurations:**
   * Hyperparameters for the CARE routing mechanism (e.g., EMA momentum $\gamma$, Phase Thresholds $\mathcal{T}$, Anchor $a$).
-  * Dynamic Modulation parameters: Base coefficients $\mathcal{B}$ and weighting factors $\alpha, \beta$.
+  * Dynamic Modulation parameters: Base coefficients $\mathcal{B}$ and weighting factors $\alpha$, $\beta$.
   * Length Calibration configurations: Stabilizer floor $L_{floor}$, Tolerance multiplier $\omega$.
-  * GRPO training configurations (e.g., Learning rate, Group size $G$).
+  * GRPO training configurations (e.g., Learning rate, Group size$G$).
 * **Commands:** One-line shell scripts to reproduce the main reasoning performance results and the token efficiency ablation studies.
 
 ## Data
