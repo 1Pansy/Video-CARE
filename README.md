@@ -26,10 +26,10 @@ To ensure the results reported in the paper are rigorously reproducible, the fut
 * **Environment:** An `environment.yml` and `requirements.txt` will be provided, specifying exact versions for PyTorch, Transformers, vLLM, and TRL.
 * **Determinism:** Specific random seeds, hardware configurations (e.g., **8 $\times$ NVIDIA L20 48GB** setups), and DeepSpeed ZeRO-3 config files used for the reported experiments will be fully documented to prove resource-efficiency.
 * **Configurations:**
-  * Hyperparameters for the CARE routing mechanism (e.g., EMA momentum $\gamma=0.99$, Phase Thresholds $\mathcal{T}=\{0.70, 0.75, 0.80\}$, Anchor $a=0.75$).
-  * Dynamic Modulation parameters: Base coefficients $\mathcal{B}=\{+3.0, +1.2, -1.2, -3.0\}$ and weighting factors $\alpha=0.5, \beta=0.3$.
-  * Length Calibration configurations: Stabilizer floor $L_{floor}=300$, Tolerance multiplier $\omega=2.5$.
-  * GRPO training configurations (e.g., Learning rate $1 \times 10^{-6}$, Group size $G=8$).
+  * Hyperparameters for the CARE routing mechanism (e.g., EMA momentum $\gamma$, Phase Thresholds $\mathcal{T}$, Anchor $a$).
+  * Dynamic Modulation parameters: Base coefficients $\mathcal{B}$ and weighting factors $\alpha, \beta$.
+  * Length Calibration configurations: Stabilizer floor $L_{floor}$, Tolerance multiplier $\omega$.
+  * GRPO training configurations (e.g., Learning rate, Group size $G$).
 * **Commands:** One-line shell scripts to reproduce the main reasoning performance results and the token efficiency ablation studies.
 
 ## Data
