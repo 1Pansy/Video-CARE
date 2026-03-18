@@ -1,6 +1,6 @@
 # Competence-Aware Reasoning Efficiency (CARE)
 
-This repository documents the release plan and reproducibility checklist for **CARE**, a dynamic reinforcement learning framework designed to optimize the cognitive budget and reasoning density of Video Large Multimodal Models (Video-LLMs) via competence-aware reward routing.
+This repository documents the release plan and reproducibility checklist for **CARE**, a dynamic reinforcement learning framework designed to optimize the cognitive budget and reasoning density of MLLMs via competence-aware reward routing.
 
 **Note:** To maintain double-blind anonymity during the peer review process for **IEEE Transactions on Image Processing (TIP)**, no source code is included in this branch.
 
