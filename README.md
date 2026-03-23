@@ -3,9 +3,10 @@
 This repository documents the release plan and reproducibility checklist for **CARE**, a dynamic reinforcement learning framework designed to optimize the cognitive budget and reasoning density of MLLMs via competence-aware reward routing.
 
 **Note:** To maintain double-blind anonymity during the peer review process for **IEEE Transactions on Image Processing (TIP)**, no source code is included in this branch.
+## Abstract
+In multimodal video reasoning, reinforcement learning-based methods typically rely on simplistic and inffexible reasoning-length control strategies that fail to adapt to the model’s evolving competence. This mismatch may suppress necessary exploration at early stages, while encouraging redundant reasoning and inefffcient decoding once the model becomes more competent. In this paper, we propose CARE, a competenceaware reward evolution framework for adaptive reasoning length optimization in multimodal reasoning. Speciffcally, CARE maintains a smoothed competence estimate via an exponential moving average of pass rates, and uses it to route training into progressive stages that shift the reward preference from exploration-oriented long-form reasoning to efffciency-oriented concise reasoning. To avoid conffating verbosity with intrinsic task complexity, CARE further normalizes reasoning effort with batch-level statistics, and introduces a posterior ampliffer to strengthen reward signals for unexpectedly strong performance on historically difffcult samples.The proposed mechanism is seamlessly integrated into the GRPO training pipeline and incurs no additional inference-time overhead. Extensive experiments on multiple video reasoning and general video understanding benchmarks demonstrate that CARE consistently improves reasoning accuracy, stabilizes reinforcement learning, and signiffcantly enhances token efffciency. Moreover, CARE exhibits a characteristic inverted-U evolution of reasoning length during training, and yields shorter yet more informative reasoning traces at convergence, indicating effective adaptive allocation of reasoning budget.
 
 ## Release Plan
-
 We are committed to open science and will release the full implementation upon acceptance.
 
 **Camera-ready:**
