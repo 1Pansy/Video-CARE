@@ -6,7 +6,7 @@ model_paths=(
 )
 
 file_names=(
-    "checkpoint-700-CARE"
+    "CARE"
 )
 
 export DECORD_EOF_RETRY_MAX=40960
