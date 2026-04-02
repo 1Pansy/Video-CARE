@@ -8,10 +8,9 @@
 
 <div align='center'>
 
-!\[CARE Framework Overview]\(./assets/care\_overview\.png null)
+!\[CARE Framework Overview]\(./Assets/care\_overview\.png null)
 
 </div>
-
 
 ***
 
